@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Net
 %define         _subclass       POP3
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - POP3 class to access POP3 server
 Summary(pl):	%{_pearname} - klasa POP3 daj±ca dostêp do serverów POP3
@@ -20,10 +21,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides a POP3 class to access POP3 server. Support all POP3 commands
 including UIDL listings and APOP authentication.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Dostarcza klasê POP3, daj±c± dostêp do serwerów POP3. Wspiera
 wszystkie komendy POP3, w³±czaj±c w to listy UIDL oraz autentyfikacjê
 APOP.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
