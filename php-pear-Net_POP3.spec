@@ -12,7 +12,7 @@ License:	BSD
 Group:		Development/Languages/PHP
 # Source0-md5:	d5abcc7c30c511b1f3e775ff0f3b9ce2
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-URL:		http://pear.php.net/
+URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
