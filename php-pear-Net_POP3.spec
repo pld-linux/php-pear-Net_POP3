@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       POP3
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - POP3 class to access POP3 server
-Summary(pl):	%{_class}_%{_subclass} - klasa POP3 daj±ca dostêp do serverów POP3
+Summary:	%{_pearname} - POP3 class to access POP3 server
+Summary(pl):	%{_pearname} - klasa POP3 daj±ca dostêp do serverów POP3
 Name:		php-pear-%{_pearname}
 Version:	1.2
 Release:	1
