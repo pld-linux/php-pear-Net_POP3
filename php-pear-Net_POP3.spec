@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - POP3 class to access POP3 server
-Summary(pl):	%{_pearname} - klasa POP3 daj±ca dostêp do serverów POP3
+Summary(pl):	%{_pearname} - klasa POP3 daj±ca dostêp do serwerów POP3
 Name:		php-pear-%{_pearname}
 Version:	1.3.3
 Release:	1
