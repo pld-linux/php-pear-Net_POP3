@@ -5,9 +5,9 @@
 Summary:	%{_class}_%{_subclass} - POP3 class to access POP3 server
 Summary(pl):	%{_class}_%{_subclass} - klasa POP3 daj±ca dostêp do serverów POP3
 Name:		php-pear-%{_pearname}
-Version:	1.1
+Version:	1.2
 Release:	1
-License:	PHP 2.02
+License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
