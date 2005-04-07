@@ -28,7 +28,7 @@ In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Dostarcza klasê POP3, daj±c± dostêp do serwerów POP3. Wspiera
-wszystkie komendy POP3, w³±czaj±c w to listy UIDL, autentyfikacjê APOP,
+wszystkie komendy POP3, w³±czaj±c w to listy UIDL, uwierzytelnianie APOP,
 DIGEST-MD5 i CRAM-MD5 z u¿yciem klasy Auth_SASL.
 
 Ta klasa ma w PEAR status: %{_status}.
