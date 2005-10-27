@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - klasa POP3 daj±ca dostêp do serwerów POP3
 Name:		php-pear-%{_pearname}
 Version:	1.3.6
 Release:	2
+Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
