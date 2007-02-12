@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - POP3 class to access POP3 server
-Summary(pl):	%{_pearname} - klasa POP3 daj±ca dostêp do serwerów POP3
+Summary(pl.UTF-8):   %{_pearname} - klasa POP3 dajÄ…ca dostÄ™p do serwerÃ³w POP3
 Name:		php-pear-%{_pearname}
 Version:	1.3.6
 Release:	3
@@ -30,16 +30,16 @@ using optional Auth_SASL package.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Dostarcza klasê POP3, daj±c± dostêp do serwerów POP3. Wspiera
-wszystkie komendy POP3, w³±czaj±c w to listy UIDL, uwierzytelnianie APOP,
-DIGEST-MD5 i CRAM-MD5 z u¿yciem klasy Auth_SASL.
+%description -l pl.UTF-8
+Dostarcza klasÄ™ POP3, dajÄ…cÄ… dostÄ™p do serwerÃ³w POP3. Wspiera
+wszystkie komendy POP3, wÅ‚Ä…czajÄ…c w to listy UIDL, uwierzytelnianie APOP,
+DIGEST-MD5 i CRAM-MD5 z uÅ¼yciem klasy Auth_SASL.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -48,7 +48,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
