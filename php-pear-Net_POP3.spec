@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - POP3 class to access POP3 server
-Summary(pl.UTF-8):   %{_pearname} - klasa POP3 dająca dostęp do serwerów POP3
+Summary(pl.UTF-8):	%{_pearname} - klasa POP3 dająca dostęp do serwerów POP3
 Name:		php-pear-%{_pearname}
 Version:	1.3.6
 Release:	3
@@ -39,7 +39,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
