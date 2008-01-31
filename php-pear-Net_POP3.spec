@@ -8,7 +8,7 @@ Summary:	%{_pearname} - POP3 class to access POP3 server
 Summary(pl.UTF-8):	%{_pearname} - klasa POP3 dająca dostęp do serwerów POP3
 Name:		php-pear-%{_pearname}
 Version:	1.3.6
-Release:	3
+Release:	4
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
